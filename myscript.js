@@ -44,8 +44,8 @@ document.getElementById("read").onclick = function () {
       document.getElementById("name").value = snap.val().name;
       document.getElementById("gender").value = snap.val().gender;
       document.getElementById("address").value = snap.val().address;
-      document.getElementById("birthday").value = snap.val().address;
-      document.getElementById("occupation").value = snap.val().address;
+      document.getElementById("birthday").value = snap.val().birthday;
+      document.getElementById("occupation").value = snap.val().occupation;
     });
 };
 
